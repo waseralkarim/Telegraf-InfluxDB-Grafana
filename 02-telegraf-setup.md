@@ -21,51 +21,5 @@ sudo apt-get update && sudo apt-get install telegraf
 ```
 Now edit Telegraf config: ```sudo vim /etc/telegraf/telegraf.conf```
 
-[global_tags]
-  dc = ""
-  rack = ""
-
-[agent]
-  interval = "3s"
-  round_interval = true
-  metric_batch_size = 1000
-  metric_buffer_limit = 10000
-  collection_jitter = "0s"
-  flush_interval = "10s"
-  flush_jitter = "0s"
-  precision = ""
-  debug = false
-  quiet = false
-  logfile = ""
-  omit_hostname = false
-
-[[outputs.influxdb]]
-  urls = ["http://monitor.osl.team:8086"]
-  database = "devops-portal"  
-  timeout = "5s"
-
-[[inputs.cpu]]
-  percpu = true
-  totalcpu = true
-  collect_cpu_time = false
-  report_active = false
-
-[[inputs.disk]]
-  ignore_fs = ["tmpfs", "devtmpfs", "devfs", "iso9660", "overlay", "aufs", "squashfs"]
-  
-[[inputs.diskio]]
-
-[[inputs.kernel]]
-  
-[[inputs.mem]]
-
-[[inputs.processes]]
-
-[[inputs.netstat]]
-
-[[inputs.net]]
-
-[[inputs.swap]]
-
-[[inputs.system]]
+I have given a production ready telegraf.conf in this repository. 
 
