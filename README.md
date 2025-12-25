@@ -39,6 +39,6 @@ The monitoring stack setup is organized into the following documents:
 6. **[Ansible Automation](ansible)**  
    Automated installation and configuration using Ansible
 
-7. **[Grafana Templates](grafana-template/11.Telegraf-Influx-Dashboard-1766656853588.json)**  
+7. **[Grafana Templates](grafana-template/Telegraf-Influx-Dashboard.json)**  
    Reusable Grafana JSON dashboard templates
 
