@@ -1,5 +1,10 @@
 # **Telegraf-InfluxDB-Grafana Monitoring Stack**
 
+<img width="1919" height="915" alt="Screenshot 2025-12-25 154639" src="https://github.com/user-attachments/assets/c873b3e6-669d-440f-9747-06755fdb13e0" />
+
+<img width="1907" height="904" alt="Screenshot 2025-12-25 154707" src="https://github.com/user-attachments/assets/4f9f576c-c402-42eb-9071-574f5f97c9bf" />
+
+
 A complete open-source observability stack for collecting, storing and visualizing time series metrics using **Telegraf**, **InfluxDB**, and **Grafana** (the TIG stack). This repository provides setup guides, configuration files, and step-by-step instructions to bring up the stack for system and metric monitoring.
 
 ## Overview
